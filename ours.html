@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+    </style>
+  </head>
+  <body>
+    <header>
+      <span class="logo_container">
+        <a href="index.html">
+          <div class="logo">
+            <img class="logotype" src="images/logo.jpg" alt="pigeon" />
+            <h4>
+              ПИТОМНИК
+              <br />
+              ПОЧТОВЫХ
+              <br />
+              ГОЛУБЕЙ
+            </h4>
+          </div>
+        </a>
+        <a href="index.html">
+          <h1>ПОЛЁТ</h1>
+        </a>
+        <div></div>
+      </span>
+      <div class="tagline">маленькие голуби приносят большие новости</div>
+      <div class="main_menu">
+        <div class="main_links hamburger_button">
+          <span>МЕНЮ</span>
+        </div>
+        <div class="main_menu hamburger_menu">
+          <div class="main_links">
+            <a href="about.html">О ГОЛУБЯХ</a>
+          </div>
+          <div class="main_links">
+            <a href="ours.html">ПОРОДЫ ГОЛУБЕЙ</a>
+          </div>
+          <div class="main_links">
+            <a href="food.html">КОРМА</a>
+          </div>
+          <div class="main_links">
+            <a href="contacts.html">КОНТАКТЫ</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="page_name species_selector">
+      <h2 class="active" data-table="our_species">Отечественные породы</h2>
+      <h2 data-table="foreign_species">Зарубежные породы</h2>
+    </div>
+    <table class="toggle_table" id="our_species">
+      <tr>
+        <th>
+          <h3>Тульский желтый турман</h3>
+          <img class="types" src="images/ourstype1.jpg" alt="" />
+        </th>
+        <th>
+          <p class="table_text">
+            Старая порода, выведена в г. Туле. Очень красивые, изящные голуби.
+            Порода сложная в разведении. Популярна в Москве и Московской
+            области, средней полосе России. В нашем питомнике содержится более 2
+            лет.
+          </p>
+          <u>7500p</u>
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <h3>Турман черно-пегий</h3>
+          <img class="types" src="images/ourstype2.jpg" alt="" />
+        </td>
+        <td>
+          <p class="table_text">
+            Старая порода, выведена в средней полосе России. На выставках
+            демонстрируется с 1980 г. Очень красивые, изящные голуби. Раньше
+            птицы этой породы обладали хорошими качествами, в настоящее время
+            находятся на вольерном содержании. Порода сложная в разведении.
+            Популярна во всем мире. В питомнике содержится более 5 лет. Любимая
+            порода президента клуба «Русский турман» генерал-лейтенанта ФСБ В.К.
+            Ваевского
+          </p>
+          <u>8000p</u>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>Московский монах черный</h3>
+          <img class="types" src="images/ourstype3.jpg" alt="" />
+        </td>
+        <td>
+          <p class="table_text">
+            Порода выведена в г. Москве в начале VII века. Изящные, грациозные,
+            неприхотливые голуби. Свое название птицы получили за окраску,
+            похожую на монашеское одеяние — цветную шапочку на голове и такого
+            же цвета хвост, а также за привычку летать отдельно от стаи. Очень
+            красивый, своеобразный, круговой лет над домом. Порода легкая в
+            разведении. Популярна в Москве и Московкой области. Неоднократные
+            чемпионы и абсолютные чемпионы выставок на протяжении 10 — 15 лет.
+          </p>
+          <u>13000p</u>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>
+            Казанский шпанцирь-панцирный <br />
+            сорочий красный
+          </h3>
+          <img class="types" src="images/ourstype4.jpg" alt="" />
+        </td>
+        <td>
+          <p class="table_text">
+            Порода выведена в Казани (респ. Татарстан). Очень грациозные,
+            изящные, красивые, неприхотливые голуби. Рисунок оперения сорочий:
+            крылья, нижняя часть груди, живот, бедра и пах чисто-белые.
+            Неповторимый красивый лет над домом. Популярна в России и ближнем
+            зарубежье. В питомнике «Полёт» содержится более 2 лет.
+          </p>
+          <u>10000p</u>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>Крюковский высоколетный белый</h3>
+          <img class="types" src="images/ourstype5.jpg" alt="" />
+        </td>
+        <td>
+          <p class="table_text">
+            Порода выведена на Украине и названа в честь г. Крюкова. Изящные,
+            грациозные, неприхотливые голуби с прекрасными летными качествами.
+            Особенно ценятся экземпляры, которые ходят на пальчиках. Порода
+            легкая в разведении. Популярна в России и ближнем зарубежье. В
+            питомнике содержится более 10 лет.
+          </p>
+          <u>14500p</u>
+        </td>
+      </tr>
+    </table>
+    <table class="toggle_table" style="display: none" id="foreign_species">
+      <tr>
+        <th>
+          <h3>Туркменский агаран лимонистый</h3>
+          <img class="types" src="images/type1.jpg" alt="" />
+        </th>
+        <th class="table_text">
+          <p class="table_text">
+            Порода этого бойного голубя выведена в Туркмении. Родиной бойных
+            голубей является Иран. Агаран — в переводе с туркменского «сливки
+            верблюжьего молока», то есть самое лучшее. Красивые, изящные,
+            неприхотливые голуби. Продолжительность полета от 1,5 до 4 часов в
+            зависимости от условий содержания и тренировок. Порода легкая в
+            разведении, но требует много времени для тренировок. Популярна в
+            России и ближнем зарубежье. В нашем питомнике содержится более 10
+            лет.
+          </p>
+          <u> 10000р </u>
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <h3>Тбилисский бойный чернохвостый</h3>
+          <img class="types" src="images/type2.jpg" alt="" />
+        </td>
+        <td>
+          <p class="table_text">
+            Порода выведена в Грузии в г. Тбилиси. Неприхотливые, жизнеспособные
+            голуби. Отличительная особенность породы — оперенные ноги. Голуби
+            обладают высокими игровыми и летными качествами — красота и бой в
+            полете завораживают. Продолжительность полета от 4 до 12 часов в
+            зависимости от условий содержания и тренировок. Порода легкая в
+            разведении, но требует много времени для тренировок. Пользуется
+            популярностью в России и ближнем зарубежье. В нашем питомнике
+            содержится более 5 лет.
+          </p>
+          <u>8500р </u>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>Николаевский черный «бабочка»</h3>
+          <img class="types" src="images/type3.jpg" alt="" />
+        </td>
+        <td>
+          <p class="table_text">
+            Порода выведена на Украине в г. Николаеве. Красивые голуби
+            оригинального окраса. Обладают очень необычным летом — зависают на
+            одном месте, как бабочка. Продолжительность полета — до 12 часов в
+            зависимости от условий содержания и тренировок. Порода легкая в
+            разведении. Популярна во всем мире, особенно на Украине. В нашем
+            питомнике содержится более 10 лет.
+          </p>
+          <u>12500р</u>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>Китайская чайка белая</h3>
+          <img class="types" src="images/type4.jpg" alt="" />
+        </td>
+        <td>
+          <p class="table_text">
+            Выведена в Китае и названа по стране происхождения. Очень красивые,
+            изящные, неприхотливые голуби. Хорошо переносят холод. Порода легкая
+            в разведении. Популярна во всем мире. Несомненно, одна из
+            красивейших пород В питомнике В.И. Харлашина содержится 15 лет.
+          </p>
+          <u>20000р</u>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h3>Немецкий крестовый монах красный <br />(бесхохлый)</h3>
+          <img class="types" src="images/type5.jpg" alt="" />
+        </td>
+        <td>
+          <p class="table_text">
+            Порода выведена в Германии. Голуби получили свое название «монах» за
+            цветную шапочку на голове, а «крестовый» — за цветной хвост и
+            цветные перья в крыльях, которые при полете напоминают крест.
+            Красивые, изящные голуби. Порода средней сложности
+            разведения.Популярна во всем мире, в том числе в России, особенно у
+            голубеводов Москвы. Одна из любимых пород В.И. Харлашина. Любимая
+            порода главы Балашихинского района Московской области В.Г.
+            Самоделова, который занимается ею с 12-летнего возраста.
+          </p>
+          <u>9500р</u>
+        </td>
+      </tr>
+    </table>
+    <script>
+      (function () {
+        let selectors = document
+          .getElementsByClassName("species_selector")[0]
+          .getElementsByTagName("h2");
+        for (let selector of selectors) {
+          selector.onclick = function () {
+            for (let sel of selectors) {
+              if (sel == selector) {
+                sel.classList.add("active");
+                document.getElementById(sel.dataset.table).style.display =
+                  "block";
+              } else {
+                sel.classList.remove("active");
+                document.getElementById(sel.dataset.table).style.display =
+                  "none";
+              }
+            }
+          };
+        }
+      })();
+    </script>
+    <footer class="footer">
+      <div class="logo">
+        <img class="logotype" src="images/logo.jpg" alt="" />
+        <h4>
+          ПИТОМНИК
+          <br />
+          ПОЧТОВЫХ
+          <br />
+          ГОЛУБЕЙ
+          <br />
+          "ПОЛЁТ"
+        </h4>
+      </div>
+      <div class="contacts_footer">
+        <h4>КОНТАКТЫ</h4>
+        <p>Балахна, ул. Островского дом 3</p>
+        <p>тел. 89302839370</p>
+      </div>
+      <div class="societies">
+        <h4>МЫ В СОЦСЕТЯХ</h4>
+        <a href="https://vk.com/sychyowa"
+          ><img class="vklogo" src="images/vklogo.png" alt=""
+        /></a>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

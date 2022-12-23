@@ -279,3 +279,9 @@ th {
         width: 90%;
     }
 }
+.land_text {
+    font-size: 3em;
+    font-weight: bolder;
+    padding-top: 157px;
+    text-align: center;
+}
